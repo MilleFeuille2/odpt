@@ -19,7 +19,7 @@ def train_info():
     endpoint = 'https://api-tokyochallenge.odpt.org'
     API_TYPE = '/api/v4/'
     rdf_type = 'Train'
-    API_KEY = 'a6809267eb0804fe8d296583e0a21ea969045a1b70f673c1f311dbcb893d43db'
+    API_KEY = ''
     request_url = endpoint + API_TYPE + 'odpt:' + rdf_type + '?' + 'acl:consumerKey=' + API_KEY
 
     response = urllib.request.urlopen(request_url)
